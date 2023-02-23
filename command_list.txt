@@ -1,0 +1,4 @@
+testing 1 = python manage.py test
+testing with coverage = coverage run manage.py test
+coverage run --omit='*/ecommerce/*' manage.py test = running test with out virtual environemnt
+coverage html - create a html cov
